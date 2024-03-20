@@ -1,6 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+const user = {
+    name: "Hedy Lamarr",
+    imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
+    imageSize: 90,
+};
+
 function Greeting() {
     return (
         <>
@@ -10,8 +16,22 @@ function Greeting() {
                 <li>List Element</li>
             </ul>
             <p>
-                <Message text="Good Morning! " />, <Person name="Anubhaw" />
+                <Message text="Good Morning " />, <Person name="Anubhaw" />
             </p>
+
+            <div style={{ display: "flex", flexDirection: "row", alignItems:"center"}}>
+                <p>{user.name}</p>
+                <img
+                    src={user.imageUrl}
+                    alt={"Photo of " + user.name}
+                    style={{
+                        height: "100px",
+                        width: "100px",
+                        borderRadius: "50%",
+                        paddingLeft:'10px'
+                    }}
+                />
+            </div>
         </>
     );
 }
