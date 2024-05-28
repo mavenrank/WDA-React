@@ -54,13 +54,11 @@ function Greeting() {
     );
 }
 
-const Image = ({ source, alt }) => {
+const Image = ({src, alt}) => {
     return (
-        <section className="image">
-            <img
-                src= {source}
-                alt = {alt}
-            />
+        <section>
+            {console.log(src)}
+            <img className="image" src={src} alt={alt} />
         </section>
     );
 }
@@ -78,13 +76,12 @@ const Bookname = ({ bookname }) => {
 }
 
 const Book = ({ bookname, source, alt, authorname }) => {
-    console.log(source)
     return (
         <div className="outerborder col-large-3 col-med-6 col-small-12">
             <section className="book">
                 <Bookname bookname={bookname} />
-                <img src={source} alt={alt} className="image" />
-                {/* <Image src={source} alt={alt} />   There is an issues here and this doesnt work properly */}
+                {/* <img src={source} alt={alt} className="image" /> */}
+                <Image src={source} alt={alt} />
                 <Author authorname={authorname} />
             </section>
         </div>

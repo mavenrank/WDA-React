@@ -13,7 +13,6 @@ body{
 .book{
     position: relative;
     background-color: #B5CBB7;
-    width: max-content;
     padding: 10px 10px 10px 10px;
     border: 2px solid #30011E;
     border-radius: 10px;
@@ -21,9 +20,6 @@ body{
 }
 
 .bookname{
-    position: relative;
-    float: right;
-    right: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     font-style: italic;
@@ -34,13 +30,13 @@ body{
     width: 250px;
     height: 300px;
     object-fit: contain;
-
 }
 
 .authorname{
     position: relative;
     float: right;
     right: 0px;
+    bottom: 10px
 }
 
 .booklist{
