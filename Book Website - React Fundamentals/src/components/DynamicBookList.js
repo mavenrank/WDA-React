@@ -1,4 +1,4 @@
-import {Book} from "./Book"
+import Book from "./Book"
 
 const bookNameList = ["Atomic Habits", "Ikigai", "The Lost Bookhouse"];
 const imageSrcList = [
@@ -19,7 +19,7 @@ const authorNameList = [
 
 // not using this part of code
 function DynamicBookListType2() {
-    let ctr = 1;
+    let count = 1;
     return (
         <section className="booklist">
             <Book
@@ -45,7 +45,7 @@ function DynamicBookListType2() {
 }
 
 function DynamicBookList() {
-    const booklist = bookNameList.map((index) => {
+    const booklist = bookNameList.map((item, index) => {
         console.log(authorNameList[index]);
         return (
             <Book
@@ -59,3 +59,5 @@ function DynamicBookList() {
     console.log(booklist);
     return <section className="booklist">{booklist}</section>;
 }
+
+export default DynamicBookList;

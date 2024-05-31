@@ -1,0 +1,1 @@
+1. Taking input from props in Greeting and inside of Greeting destructuring. The Image URL does not get destructured properly.

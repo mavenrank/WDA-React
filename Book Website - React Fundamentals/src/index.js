@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import "./index.css";
 import Book from "./components/Book"
 import HardcodedBookList from "./components/HardcodedBooklist"
+import DynamicBookList from "./components/DynamicBookList"
 
 import {Greeting} from "./components/Greeting"
 
@@ -34,9 +35,10 @@ const Webpage = () => {
         <div className="mainDiv">
             <h1>Welcome to our BookStore</h1>
             {/* <HardcodedBookList></HardcodedBookList> */}
-            {/* <DynamicBookList1></DynamicBookList1> */}
-            <Greeting text="Hello!" name="Roopam" user={ user }></Greeting>
+            {/* <DynamicBookList></DynamicBookList> */}
+            {/* <Greeting text="Hello!" name="Roopam" user={ user }></Greeting> */}
             <div className="emptyDiv">
+                <p>PROOF OF IMAGE URL WORKING</p>
                 <img src="https://i.imgur.com/yXOvdOSs.jpg"></img>
             </div>
         </div>
