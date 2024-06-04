@@ -22,7 +22,7 @@ const FetchData = () => {
                     const { id, login, avatar_url, html_url } = user;
                     return (
                         <div id="eachUser">
-                            <li id={id}>
+                            <li id={id} style={{listStyleType:"none"}}>
                                 <img
                                     src={avatar_url}
                                     alt={login}
