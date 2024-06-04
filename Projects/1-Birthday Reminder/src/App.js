@@ -9,7 +9,7 @@ function App() {
     // Implement a Remove button for each Person in the List. Every time a person is removed, the counter value should change.
 
     const handleClick = (id) => {
-        alert("Inside ");
+        console.log("Inside ");
         let newPeople = people.filter((person) => person.id !== id);
         setPeople(newPeople);
     };
