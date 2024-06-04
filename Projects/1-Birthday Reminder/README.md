@@ -4,4 +4,4 @@
 
 ![Birthday Reminder](implementation.png)
 
-![Click here for Implementation](https://wda-react-project-1-birthday-reminder-mavenranks-projects.vercel.app/)
+[Click here for Implementation](https://wda-react-project-1-birthday-reminder-mavenranks-projects.vercel.app/)
