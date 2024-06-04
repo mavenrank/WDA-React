@@ -9,9 +9,8 @@ const ResizeWindowwithCleanup = () => {
         setHeight(window.innerHeight);
     };
     useEffect(() => {
-        window.addEventListener("resize", checkSize);
-
-        return window.removeEventListener("resize", checkSize);
+        window.addEventListener('resize', checkSize);
+        // do not use cleanup function here as it breaks the functionality of the useEffect completely
     });
 
     return (
