@@ -5,6 +5,9 @@ import ResizeWindowwithCleanup from "./components/ResizeWindowwithCleanup";
 import UseEffectBasics from "./components/UseEffectBasics";
 
 function App() {
+    const openlink = () => {
+        window.open("https://github.com/mavenrank/WDA-React/tree/main/React%20useEffect%20Hook");
+    } 
     return (
         <div className="App">
             <div className="headingDiv">
@@ -18,7 +21,7 @@ function App() {
                             height: "50px",
                         }}
                     ></img> */}
-                    <button className="btn" onClick={""}>
+                    <button className="btn" onClick={openlink}>
                         <img
                             src="images/GitHub-Logos/GitHub_Logo.png"
                             alt="GitHub Logo"

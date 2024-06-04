@@ -5,7 +5,6 @@
     --DustStorm: #dad3be;
 }
 
-
 @font-face {
     font-family: "Nunito";
     src: url(../public/fonts/Nunito-VariableFont_wght.ttf);
@@ -19,7 +18,7 @@ body {
     background-color: var(--Everglade);
     color: var(--DustStorm);
     font-family: "Nunito";
-	width: 100%;
+    width: 100%;
 }
 
 .headingDiv {
@@ -48,39 +47,33 @@ body {
     background-color: var(--ViridianGreen);
 }
 
-
-.section{
-	margin: 0% 3% 15px 3%;
-	width: max-content;
-	
+.section {
+    margin: 0% 3% 15px 3%;
+    width: max-content;
 }
 
 .sectionHeading {
     padding-bottom: 5px;
 }
 
-.sectionedDiv{
-	border-radius: 10px;
-	padding: 5px;
-	background-color: #6b8a7a;
-	width: max-content;
+.sectionedDiv {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #6b8a7a;
+    width: max-content;
 }
 
-.counter{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#githubusers{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	overflow: auto;
-	width: 100%;
-}
+.sectionedDiv #githubusers {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-#githubusers #eachUser {
-  
 }
