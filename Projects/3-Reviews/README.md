@@ -10,3 +10,5 @@ This Project demonstrates the following
 6) Display *random eleent* within a given array.
 
 ![Reviews](thumbnail.png)
+
+[Click here for Implementation](https://wda-react-projects-3-reviews.pages.dev/)
