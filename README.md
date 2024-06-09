@@ -30,4 +30,6 @@
 
 #### Tasks
 
+##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
+
 ##### [🔗 2 - Tabs Experience](https://wda-react-task-2-tabs.pages.dev/)

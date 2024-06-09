@@ -6,4 +6,4 @@
 
 ![Amazon BestSeller](./thumbnail.png)
 
-Implementation Link will be provided soon.
+[Click here for Implementation](https://wda-react-task-1-amazon-bestseller.pages.dev/)
