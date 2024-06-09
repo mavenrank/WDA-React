@@ -39,3 +39,25 @@
 ##### [🔗 2 - Tabs Experience](https://wda-react-task-2-tabs.pages.dev/)
 <!--from CloudFlare Pages-->
 
+#### Snapshots of Various Websites
+
+![Task - 1 - Amazon BestSeller](./Task%20-%201%20-%20Amazon%20BestSeller/thumbnail.png)
+
+![Task - 2 - Experience Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
+
+![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
+
+![Reviews](./Projects/3-Reviews/thumbnail.png)
+
+
+![Accordion](./Projects/4-Accordion/thumbnail.png)
+
+![Menu](./Projects/5-Menu/thumbnail.png)
+
+![useState Hook](./React%20useState%20Hook/thumbnail.png)
+
+![useEffect Hook](./React%20useEffect%20Hook/implementation.png)
+
+![Forms and useRef](./Forms/thumbnail.png)
+
+![Conditional Rendering](./Conditional%20Rendering/thumbnail.png)
