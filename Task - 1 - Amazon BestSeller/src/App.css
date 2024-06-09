@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #347576;
+    text-align: center;
+    padding: 30px 15px 30px 15px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.main-div {
+    display: flex;
+}
+
+.leftsection {
+    display: flex;
+    flex: 30%;
+    width: 300px;
+}
+.rightsection {
+    display: flex;
+    flex: 70%;
+    background-color: aquamarine;
+}
+
+.booklist {
+    position: absolute;
+    left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-book {
+    width: 350px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    cursor: pointer;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ranking {
+    position: relative;
+    top: -7px;
+    left: -20px;
+    background-color: orange;
+    padding: 0px 25px 0px 25px;
+    width: max-content;
+}
+
+.title {
+    font-family: "Montserrat";
+}
+
+img {
+    position: relative;
+    left: 54px;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-tag{
+    font-weight: bold;
+    text-align: end;
+    color: orange;
+    
+}
+
+.note{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
