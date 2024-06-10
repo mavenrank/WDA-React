@@ -52,6 +52,8 @@
 
 ![Task - 2 - Experience Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
 
+![Color Generator](./Projects/8-Color%20Generator/thumbnail.png)
+
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
 ![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
