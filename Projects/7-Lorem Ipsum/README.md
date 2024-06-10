@@ -3,4 +3,4 @@ using *Forms*, *useState Hook*
 
 ![Lorem Ipsum Generator](./thumbnail.png)
 
-Deployment Link will be provided soon.
+[Click here for Implementation](https://wda-react-projects-7-lorem-generator.pages.dev/)

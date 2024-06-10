@@ -31,6 +31,10 @@
 
 ##### [🔗 5-Menu](https://wda-react-projects-5-menu.pages.dev/)
 <!--from CloudFlare Pages-->
+
+##### [🔗 6-Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
+
+##### [🔗 7- Lorem Ipsum Generator](https://wda-react-projects-7-lorem-generator.pages.dev/)
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
@@ -47,8 +51,9 @@
 
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
-![Reviews](./Projects/3-Reviews/thumbnail.png)
+![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
 
+![Reviews](./Projects/3-Reviews/thumbnail.png)
 
 ![Accordion](./Projects/4-Accordion/thumbnail.png)
 
