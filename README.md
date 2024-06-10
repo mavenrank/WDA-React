@@ -32,7 +32,7 @@
 ##### [🔗 5-Menu](https://wda-react-projects-5-menu.pages.dev/)
 <!--from CloudFlare Pages-->
 
-##### [🔗 6-Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
+##### [🔗 6-Tabs (Task - 2)](https://wda-react-task-2-tabs.pages.dev/)
 
 ##### [🔗 7- Lorem Ipsum Generator](https://wda-react-projects-7-lorem-generator.pages.dev/)
 #### Tasks
