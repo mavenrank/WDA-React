@@ -35,6 +35,9 @@
 ##### [🔗 6-Tabs (Task - 2)](https://wda-react-task-2-tabs.pages.dev/)
 
 ##### [🔗 7- Lorem Ipsum Generator](https://wda-react-projects-7-lorem-generator.pages.dev/)
+
+##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
+
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
