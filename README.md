@@ -38,6 +38,8 @@
 
 ##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
 
+##### [🔗 9 - Grocery Bud]()
+
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
@@ -63,6 +65,8 @@
 ![Accordion](./Projects/4-Accordion/thumbnail.png)
 
 ![Menu](./Projects/5-Menu/thumbnail.png)
+
+![Navbar](./Projects/10-Navbar/thumbnail-desktop.png)
 
 ![useState Hook](./React%20useState%20Hook/thumbnail.png)
 
