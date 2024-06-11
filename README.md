@@ -40,6 +40,8 @@
 
 ##### [🔗 9 - Grocery Bud]()
 
+##### [🔗 10 - Navbar](./Projects/10-Navbar/)
+
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
