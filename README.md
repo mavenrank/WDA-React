@@ -16,7 +16,9 @@
 <!--from CloudFLare Pages-->
 
 ##### [🔗 Forms and useRef](https://wda-react-forms-useref-hook.pages.dev/)
-<!--from Vercel.app-->
+<!--from CloudFlare Pages-->
+
+##### [🔗 useReducer Hook](./React%20useReducer%20Hook/)
 
 #### Projects
 
@@ -38,7 +40,7 @@
 
 ##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
 
-##### [🔗 9 - Grocery Bud]()
+##### [🔗 9 - Grocery Bud (Task - 3)]()
 
 ##### [🔗 10 - Navbar](./Projects/10-Navbar/)
 
@@ -61,6 +63,8 @@
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
 ![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
+
+![React useReducer Hook](./React%20useReducer%20Hook/thumbnail.png)
 
 ![Reviews](./Projects/3-Reviews/thumbnail.png)
 
