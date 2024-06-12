@@ -1,0 +1,133 @@
+:root {
+    --space-cadet: #22223bff;
+    --ultra-violet: #4a4e69ff;
+    --rose-quartz: #9a8c98ff;
+    --pale-dogwood: #c9ada7ff;
+    --isabelline: #f2e9e4ff;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: var(--space-cadet);
+}
+
+.page-title-div {
+    text-align: left;
+    font-size: 36px;
+    color: var(--rose-quartz);
+    margin: 50px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maindivs{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.github{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+}
+
+.github-name {
+    font-size: 20px;
+}
+
+.github-icon {
+    background-color: var(--space-cadet);
+    color: var(--pale-dogwood);
+    height: 80px;
+    width: 80px;
+}
+
+.external {
+    border: 0px;
+    background-color: var(--space-cadet);
+    cursor: pointer;
+}
+
+.modal-div{
+    text-align: center;
+}
+.modal-content{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    background-color: var(--ultra-violet);
+    color: var(--pale-dogwood);
+}
+
+
+.useReducerBasics h2{
+    width: max-content;
+    color: var(--pale-dogwood);
+    margin-bottom: 20px;
+}
+
+
+.form {
+    margin: 30px 0px 30px 0px;
+}
+
+.form input{
+    background-color: var(--pale-dogwood);
+    border: 2px;
+    padding: 0px 3px 0px 3px;
+    border-radius: 3px;
+    margin: 5px 0px 5px 0px;
+}
+
+.btn{
+    background-color: var(--pale-dogwood);
+    border: 2px;
+    padding: 2px 5px 2px 5px;
+    transition: 0.07s ease-in-out;
+    cursor: pointer;
+    margin: 5px 0px 5px 0px;
+}
+
+.btn:hover{
+    background-color: var(--rose-quartz);
+}
+
+.people-list-title{
+    color: var(--pale-dogwood);
+
+}
+
+.person-list{
+    width: 550px;
+    text-transform: capitalize;
+    color: var(--pale-dogwood);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid var(--rose-quartz);
+}
+
+.person-list-email {
+    text-transform: none;
+}
