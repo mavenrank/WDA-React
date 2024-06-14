@@ -5,20 +5,21 @@ import { FaEdit } from "react-icons/fa";
 
 const reducer = (state, action) => {
     if (action.type == "ADD") {
-        const allitems = [...state.name, action.payload];
         return {
             ...state,
-            grocerylist: allitems,
+            grocerylist: action.payload,
             showModal: true,
             showModalContent: "Item Added",
         };
-    } else if (action.type == "REMOVE") {
-        const allitems = state.grocerylist.filer((item) => {
+    } else if (action.type == "DELETE") {
+        console.log(`Action Payload inside DELETE: ${action.payload}`);
+
+        const newitems = state.grocerylist.filter((item) => {
             return item.id !== action.payload;
         });
         return {
             ...state,
-            grocerylist: allitems,
+            grocerylist: newitems,
             showModal: true,
             showModalContent: "Removed Item",
         };
@@ -45,13 +46,18 @@ const reducer = (state, action) => {
             showModal: false,
             showModalContent: "",
         };
+    } else {
+        return {
+            ...state,
+            showModal: true,
+            showModalContent: "DISPATCH ERROR PROBABLY or OTHER ERROR",
+        };
     }
 };
 
 const MainPage = () => {
     const grocerylist = [{ id: "1", name: "Eggs" }];
     const [name, setName] = useState("");
-    const [showModal, setShowModal] = useState(false);
     const [listitem, setListitem] = useState({ id: null, name: null });
     const [addmode, setAddMode] = useState(true);
 
@@ -81,14 +87,21 @@ const MainPage = () => {
     };
 
     const EditItem = () => {};
-    const handleDelete = (eachitem) => {};
 
     const handleAdd = (e) => {
         e.preventDefault();
+        console.log("testing");
+        const newItem = { id: new Date().getTime().toString(), name: name };
+        const newgrocerylist = [...state.grocerylist, newItem];
+        dispatch({ type: "ADD", payload: newgrocerylist });
+    };
+
+    const handleDelete = (eachitem) => {
+        dispatch({ type: "DELETE", payload: eachitem.id });
     };
 
     useEffect(() => {
-        if (state.isModalOpen === true) {
+        if (state.showModal === true) {
             const timer = setTimeout(() => {
                 dispatch({ type: "CLOSE_MODAL" });
             }, 3000);
@@ -99,7 +112,7 @@ const MainPage = () => {
         <div className="mainDiv">
             <h2>Grocery Bud</h2>
             <div className="section">
-                {showModal && (
+                {state.showModal && (
                     <Modal modalcontent={state.showModalContent}></Modal>
                 )}
                 <div className="card">
@@ -118,7 +131,7 @@ const MainPage = () => {
                                 <button
                                     type="submit"
                                     className="btn"
-                                    onClick={() => handleAdd}
+                                    onClick={handleAdd}
                                 >
                                     Add Item
                                 </button>
@@ -192,6 +205,14 @@ const MainPage = () => {
                                             className="seamless-btns"
                                             onClick={(eachitem) => {
                                                 setListitem(eachitem.id);
+                                                console.log(
+                                                    "ERROR HERE WITH EMPTY OBJECT SUSPECTED"
+                                                );
+                                                console.log(
+                                                    `onClick delete icon, eachitem: ${JSON.stringify(
+                                                        eachitem
+                                                    )}`
+                                                );
                                                 handleDelete(eachitem);
                                             }}
                                         >
