@@ -36,14 +36,18 @@
 <!--from CloudFlare Pages-->
 
 ##### [🔗 6-Tabs (Task - 2)](https://wda-react-task-2-tabs.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 ##### [🔗 7- Lorem Ipsum Generator](https://wda-react-projects-7-lorem-generator.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 ##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 ##### [🔗 9 - Grocery Bud (Task - 3)]()
 
-##### [🔗 10 - Navbar](./Projects/10-Navbar/)
+##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.netlify.app/)
+<!-- from Netlify.App -->
 
 #### Tasks
 
