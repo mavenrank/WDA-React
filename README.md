@@ -18,7 +18,8 @@
 ##### [🔗 Forms and useRef](https://wda-react-forms-useref-hook.pages.dev/)
 <!--from CloudFlare Pages-->
 
-##### [🔗 useReducer Hook](./React%20useReducer%20Hook/)
+##### [🔗 useReducer Hook](https://wda-react-usereducer-hook.netlify.app/)
+<!-- from Netlify.App -->
 
 #### Projects
 
