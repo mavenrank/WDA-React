@@ -21,6 +21,8 @@
 ##### [🔗 useReducer Hook](https://wda-react-usereducer-hook.netlify.app/)
 <!-- from Netlify.App -->
 
+##### [🔗 Memo and useMemo, useCallback Hooks]()
+
 #### Projects
 
 ##### [🔗 1-Birthday Reminder](https://wda-react-project-1-birthday-reminder-mavenranks-projects.vercel.app/)
@@ -61,17 +63,17 @@
 
 ![Task - 1 - Amazon BestSeller](./Task%20-%201%20-%20Amazon%20BestSeller/thumbnail.png)
 
+![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
+
 ![Task - 2 - Experience Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
 
 ![Color Generator](./Projects/8-Color%20Generator/thumbnail.png)
 
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
-![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
+![Reviews](./Projects/3-Reviews/thumbnail.png)
 
 ![React useReducer Hook](./React%20useReducer%20Hook/thumbnail.png)
-
-![Reviews](./Projects/3-Reviews/thumbnail.png)
 
 ![Accordion](./Projects/4-Accordion/thumbnail.png)
 
