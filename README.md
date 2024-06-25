@@ -51,6 +51,9 @@
 ##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.netlify.app/)
 <!-- from Netlify.App -->
 
+##### [🔗 11 - Sidebar and Modal]()
+<!-- from Netlify.App -->
+
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
