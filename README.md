@@ -51,7 +51,7 @@
 ##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.netlify.app/)
 <!-- from Netlify.App -->
 
-##### [🔗 11 - Sidebar and Modal]()
+##### [🔗 11 - Sidebar and Modal](https://wda-react-projects-11-sidebar-modal.netlify.app/)
 <!-- from Netlify.App -->
 
 #### Tasks
@@ -79,6 +79,8 @@
 ![React useReducer Hook](./React%20useReducer%20Hook/thumbnail.png)
 
 ![Accordion](./Projects/4-Accordion/thumbnail.png)
+
+![Sidebar and Modal](./Projects/11-Sidebar%20Modal/thumbnail.png)
 
 ![Menu](./Projects/5-Menu/thumbnail.png)
 
