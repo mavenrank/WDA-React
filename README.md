@@ -21,7 +21,7 @@
 ##### [🔗 useReducer Hook](https://wda-react-usereducer-hook.netlify.app/)
 <!-- from Netlify.App -->
 
-##### [🔗 Memo and useMemo, useCallback Hooks]()
+##### [🔗 Memo and useMemo, useCallback Hooks](https://wda-react-memo-usememo-usecallback.pages.dev/)
 
 #### Projects
 

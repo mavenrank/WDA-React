@@ -6,4 +6,4 @@ useMemo and useCallback are not to be used in smaller scales. This is because th
 
 ![React Memo, useMemo, useCallback](./thumbnail.png)
 
-Deployment Link will be provided.
+[Click here for Implementation](https://wda-react-memo-usememo-usecallback.pages.dev/)
