@@ -55,6 +55,9 @@
 <!-- from Netlify.App -->
 
 ##### [🔗 12 - Cocktail DB Implementation](https://wda-react-projects-12-cocktails.netlify.app/)
+<!-- from Netlify.App -->
+
+##### [🔗 13 - Markdown Preview](https://wda-react-projects-13-markdown.netlify.app/)
 
 #### Tasks
 
@@ -79,6 +82,8 @@
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
 ![Reviews](./Projects/3-Reviews/thumbnail.png)
+
+![Markdown Preview](./Projects/13-Markdown%20Preview/thumbnail.png)
 
 ![React useReducer Hook](./React%20useReducer%20Hook/thumbnail.png)
 
