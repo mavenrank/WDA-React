@@ -54,6 +54,8 @@
 ##### [🔗 11 - Sidebar and Modal](https://wda-react-projects-11-sidebar-modal.netlify.app/)
 <!-- from Netlify.App -->
 
+##### [🔗 12 - Cocktail DB Implementation](https://wda-react-projects-12-cocktails.netlify.app/)
+
 #### Tasks
 
 ##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
@@ -71,6 +73,8 @@
 ![Task - 2 - Experience Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
 
 ![Color Generator](./Projects/8-Color%20Generator/thumbnail.png)
+
+![CockTailDB](./Projects/12-Cocktails/thumbnail.png)
 
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
 
