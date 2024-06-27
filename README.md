@@ -58,6 +58,10 @@
 <!-- from Netlify.App -->
 
 ##### [🔗 13 - Markdown Preview](https://wda-react-projects-13-markdown.netlify.app/)
+<!-- form Netlify.App -->
+
+##### [🔗 14 - Pagination](https://wda-react-projects-14-pagination.netlify.app/)
+
 
 #### Tasks
 
@@ -90,6 +94,8 @@
 ![Accordion](./Projects/4-Accordion/thumbnail.png)
 
 ![Sidebar and Modal](./Projects/11-Sidebar%20Modal/thumbnail.png)
+
+![Pagination](./Projects/14-Pagination/thumbnail.png)
 
 ![Menu](./Projects/5-Menu/thumbnail.png)
 
