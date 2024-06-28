@@ -2,64 +2,14 @@ import React, { useReducer, useState, useEffect } from "react";
 import Modal from "./Modal";
 import { TiDelete } from "react-icons/ti";
 import { FaEdit } from "react-icons/fa";
-
-const reducer = (state, action) => {
-    if (action.type == "ADD") {
-        return {
-            ...state,
-            grocerylist: action.payload,
-            showModal: true,
-            showModalContent: "Item Added",
-        };
-    } else if (action.type == "DELETE") {
-        console.log(`Action Payload inside DELETE: ${action.payload}`);
-
-        const newitems = state.grocerylist.filter((item) => {
-            return item.id !== action.payload;
-        });
-        return {
-            ...state,
-            grocerylist: newitems,
-            showModal: true,
-            showModalContent: "Removed Item",
-        };
-    } else if (action.type === "UPDATE") {
-        console.log(`UPDATE`);
-        console.log(`Action Payload: ${JSON.stringify(action.payload)}`);
-        console.log(`Action Listitem: ${JSON.stringify(action.listitem)}`);
-
-        const allitems = state.grocerylist.map((item) => {
-            if (item.id === action.payload.id) {
-                item.name === action.listitem.name;
-            }
-            return item;
-        });
-        return {
-            ...state,
-            grocerylist: allitems,
-            showModal: true,
-            showModalContent: "Updated Item",
-        };
-    } else if (action.type == "CLOSE_MODAL") {
-        return {
-            ...state,
-            showModal: false,
-            showModalContent: "",
-        };
-    } else {
-        return {
-            ...state,
-            showModal: true,
-            showModalContent: "DISPATCH ERROR PROBABLY or OTHER ERROR",
-        };
-    }
-};
+import reducer from "./Reducer";
 
 const MainPage = () => {
     const grocerylist = [{ id: "1", name: "Eggs" }];
     const [name, setName] = useState("");
-    const [listitem, setListitem] = useState({ id: null, name: null });
     const [addmode, setAddMode] = useState(true);
+    const [currentItem, setCurrentItem] = useState(null);
+    const [counter, setCounter] = useState(2);
 
     const defaultState = {
         grocerylist: grocerylist,
@@ -70,30 +20,43 @@ const MainPage = () => {
 
     const [state, dispatch] = useReducer(reducer, defaultState);
 
-    const handleEdit = (eachitem, e) => {
-        if (e) {
-            e.preventDefault();
-        }
-        const { id, name } = eachitem;
-        console.log("Inside handleEdit");
-        console.log(`Each item ID : ${id}`);
-        console.log(`Each Item Name : ${name}`);
+    const editIconFunctionality = (item, e) => {
+        if (e) e.preventDefault();
+        const { id, name } = item;
+        console.log("Inside editIconfunctionality ----------> ");
+        console.log(`Item ID : ${id} and Name is : ${name}`);
         console.log(
-            `Eachitem object inside of handleEdit: ${JSON.stringify(eachitem)}`
+            `Item object inside of editIconfunctionality: ${JSON.stringify(
+                item
+            )}`
         );
-        console.log(`EachItem ID: ${id}`);
+        setCurrentItem(item);
         setName(name);
-        dispatch({ type: "UPDATE", payload: eachitem, listitem: listitem });
+        console.log(
+            "--------- Name set, editIconFunctionality done ----------"
+        );
     };
 
-    const EditItem = () => {};
+    const handleEdit = (e) => {
+        e.preventDefault();
+        const tempObj = currentItem;
+        tempObj.name = name;
+        dispatch({ type: "UPDATE", payload: tempObj });
+        setName("");
+        setAddMode(true);
+    };
 
     const handleAdd = (e) => {
         e.preventDefault();
-        console.log("testing");
-        const newItem = { id: new Date().getTime().toString(), name: name };
-        const newgrocerylist = [...state.grocerylist, newItem];
-        dispatch({ type: "ADD", payload: newgrocerylist });
+        console.log("Handle Add ---------> ");
+        console.log(counter)
+        setCounter(counter + 1);
+        console.log(counter)
+        const newItem = { id: counter, name: name };
+
+        dispatch({ type: "ADD", payload: newItem });
+        console.log("-------- Dispatched ADD ---------");
+        setName("");
     };
 
     const handleDelete = (eachitem) => {
@@ -120,6 +83,7 @@ const MainPage = () => {
                         <label htmlFor="name">Item</label>
                         <div className="inputfield-submit">
                             <input
+                                id="input"
                                 type="text"
                                 value={name}
                                 onChange={(e) => {
@@ -139,7 +103,7 @@ const MainPage = () => {
                                 <button
                                     type="submit"
                                     className="btn"
-                                    onClick={() => EditItem}
+                                    onClick={handleEdit}
                                 >
                                     Edit Item
                                 </button>
@@ -147,73 +111,45 @@ const MainPage = () => {
                         </div>
                     </form>
                     <div className="list">
-                        {state.grocerylist.map((eachitem) => {
+                        {state.grocerylist.map((singleItem) => {
                             return (
-                                <div className="list-item" key={eachitem.id}>
-                                    <p>{eachitem.id}</p>
-                                    <p>{eachitem.name}</p>
+                                <div className="list-item" key={singleItem.id}>
+                                    <p>{singleItem.id}</p>
+                                    <p>{singleItem.name}</p>
                                     <div className="buttons">
-                                        <button
+                                        <button // EDIT ICON BUTTON
                                             className="seamless-btns"
                                             onClick={() => {
                                                 console.log(
-                                                    `Each Item in onClick : ${JSON.stringify(
-                                                        eachitem
-                                                    )}`
+                                                    "Setting Add Mode to False"
                                                 );
-                                                console.log(
-                                                    `Each Item ID in onClick: ${eachitem.id}`
-                                                );
-                                                console.log(
-                                                    `Each Item Name in onClick: ${eachitem.name}`
-                                                );
-                                                console.log(
-                                                    `Listitem in onClick before setting it ${JSON.stringify(
-                                                        listitem
-                                                    )}`
-                                                );
-                                                console.log(
-                                                    "HERE IS THE ISSUE. https://blog.logrocket.com/using-react-usestate-object/#:~:text=One%20of%20React's%20most%20commonly,won't%20re%2Drender."
-                                                );
-                                                const newObject = {
-                                                    id: eachitem.id,
-                                                    name: eachitem.name,
-                                                };
-                                                setListitem(newObject);
+                                                setAddMode(false);
 
                                                 console.log(
-                                                    "AFTER SETTING THE VALUES"
-                                                );
-                                                console.log(
-                                                    `ListItem ID in onClick: ${listitem.id}`
-                                                );
-                                                console.log(
-                                                    `ListItem Name in onClick: ${listitem.name}`
-                                                );
-                                                console.log(
-                                                    `ListItem in onClick: ${JSON.stringify(
-                                                        listitem
+                                                    `Each Item in onClick : ${JSON.stringify(
+                                                        singleItem
                                                     )}`
                                                 );
-                                                handleEdit(eachitem);
-                                                setAddMode(false);
+                                                console.log(
+                                                    "https://blog.logrocket.com/using-react-usestate-object/#:~:text=One%20of%20React's%20most%20commonly,won't%20re%2Drender."
+                                                );
+                                                editIconFunctionality(
+                                                    singleItem
+                                                );
                                             }}
                                         >
                                             <FaEdit className="edit-icon" />
                                         </button>
-                                        <button
+                                        <button // DELETE BUTTON
                                             className="seamless-btns"
-                                            onClick={(eachitem) => {
-                                                setListitem(eachitem.id);
+                                            onClick={() => {
+                                                setCurrentItem(singleItem);
                                                 console.log(
-                                                    "ERROR HERE WITH EMPTY OBJECT SUSPECTED"
-                                                );
-                                                console.log(
-                                                    `onClick delete icon, eachitem: ${JSON.stringify(
-                                                        eachitem
+                                                    `onClick delete icon, singleItem: ${JSON.stringify(
+                                                        currentItem
                                                     )}`
                                                 );
-                                                handleDelete(eachitem);
+                                                handleDelete(singleItem);
                                             }}
                                         >
                                             <TiDelete className="delete-icon" />
