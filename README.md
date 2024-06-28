@@ -34,7 +34,7 @@
 ##### [🔗 3 - Grocery Bud (Project-9)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
 <!-- from Netlify.App -->
 
-##### [🔗 4 - Sidebar and Modal (Project-11)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
+##### [🔗 4 - Sidebar and Modal (Project-11)](https://wda-react-projects-11-sidebar-modal.netlify.app/)
 <!-- from Netlify.App -->
 
 #### Projects
