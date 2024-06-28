@@ -23,6 +23,20 @@
 
 ##### [🔗 Memo and useMemo, useCallback Hooks](https://wda-react-memo-usememo-usecallback.pages.dev/)
 
+#### Tasks
+
+##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
+<!--from CloudFlare Pages-->
+
+##### [🔗 2 - Tabs Experience](https://wda-react-task-2-tabs.pages.dev/)
+<!--from CloudFlare Pages-->
+
+##### [🔗 3 - Grocery Bud (Project-9)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
+<!-- from Netlify.App -->
+
+##### [🔗 4 - Sidebar and Modal (Project-11)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
+<!-- from Netlify.App -->
+
 #### Projects
 
 ##### [🔗 1-Birthday Reminder](https://wda-react-project-1-birthday-reminder-mavenranks-projects.vercel.app/)
@@ -46,12 +60,13 @@
 ##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
 <!-- from CloudFlare Pages -->
 
-##### [🔗 9 - Grocery Bud (Task - 3)]()
+##### [🔗 9 - Grocery Bud (Task - 3)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
+<!-- from Netlify.App -->
 
 ##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.netlify.app/)
 <!-- from Netlify.App -->
 
-##### [🔗 11 - Sidebar and Modal](https://wda-react-projects-11-sidebar-modal.netlify.app/)
+##### [🔗 11 - Sidebar and Modal (Task - 4)](https://wda-react-projects-11-sidebar-modal.netlify.app/)
 <!-- from Netlify.App -->
 
 ##### [🔗 12 - Cocktail DB Implementation](https://wda-react-projects-12-cocktails.netlify.app/)
@@ -66,14 +81,6 @@
 ##### [🔗 15 - Movie DB](https://wda-react-projects-15-movie-db.netlify.app/)
 <!-- from Netlify.App -->
 
-#### Tasks
-
-##### [🔗 1 - Amazon BestSeller](https://wda-react-task-1-amazon-bestseller.pages.dev/)
-<!--from CloudFlare Pages-->
-
-##### [🔗 2 - Tabs Experience](https://wda-react-task-2-tabs.pages.dev/)
-<!--from CloudFlare Pages-->
-
 #### Snapshots of Various Websites
 
 ![Task - 1 - Amazon BestSeller](./Task%20-%201%20-%20Amazon%20BestSeller/thumbnail.png)
@@ -81,6 +88,8 @@
 ![Lorem Ipsum Generator](./Projects/7-Lorem%20Ipsum/thumbnail.png)
 
 ![Task - 2 - Experience Tabs](./Task%20-%202%20-%20Tabs/thumbnail.png)
+
+![Task - 3 - Grocery Bud](./Projects/9-Grocery%20Bud%20Simple/thumbnail.png)
 
 ![Color Generator](./Projects/8-Color%20Generator/thumbnail.png)
 

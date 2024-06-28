@@ -1,8 +1,7 @@
-# React + Vite
+# Grocery Bud Simple
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task - 3 of WDA - React
 
-Currently, two official plugins are available:
+![Grocery bud Task](thumbnail.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here for Implementation](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
