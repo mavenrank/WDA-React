@@ -61,7 +61,10 @@
 <!-- form Netlify.App -->
 
 ##### [🔗 14 - Pagination](https://wda-react-projects-14-pagination.netlify.app/)
+<!-- from Netlify.App -->
 
+##### [🔗 15 - Movie DB](https://wda-react-projects-15-movie-db.netlify.app/)
+<!-- from Netlify.App -->
 
 #### Tasks
 
@@ -84,6 +87,8 @@
 ![CockTailDB](./Projects/12-Cocktails/thumbnail.png)
 
 ![BirthDay Reminder](./Projects/1-Birthday%20Reminder/implementation.png)
+
+![Movie DB](./Projects/15-Movie%20DB/thumbnail.png)
 
 ![Reviews](./Projects/3-Reviews/thumbnail.png)
 
