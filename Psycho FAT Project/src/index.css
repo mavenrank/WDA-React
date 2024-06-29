@@ -1,0 +1,119 @@
+:root {
+    /* CSS HEX */
+    --rich-black: #0d1b2aff;
+    --oxford-blue: #1b263bff;
+    --yinmn-blue: #415a77ff;
+    --silver-lake-blue: #778da9ff;
+    --platinum: #e0e1ddff;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--rich-black);
+    background: var(--platinum);
+  }
+  
+  ::selection {
+    color: var(--rich-black);
+    background: var(--platinum);
+  }
+
+
+@font-face {
+    font-family: InterVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("../assets/InterVariable.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 40px;
+    font-family: "InterVariable";
+    background-color: var(--rich-black);
+    color: var(--silver-lake-blue);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.swearing {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.inputs input {
+    background-color: var(--oxford-blue);
+    color: var(--silver-lake-blue);
+    margin-right: 20px;
+    border: 1px solid var(--yinmn-blue);
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.inputs input:active,
+.inputs input:focus {
+    outline: 0px;
+    background-color: var(--rich-black);
+    transition: all 0.2s ease-in-out;
+}
+
+.inputs button {
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    color: var(--silver-lake-blue);
+    background-color: var(--oxford-blue);
+    border: 1px solid var(--yinmn-blue);
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.inputs button:hover {
+    background-color: var(--rich-black);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.dropdowns {
+    background-color: var(--oxford-blue);
+    color: var(--platinum);
+    width: 170px;
+    height: 47px;
+    margin-right: 30px;
+    border: 2px solid var(--oxford-blue);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.dropdowns:active,
+.dropdowns:focus {
+    background-color: var(--rich-black);
+    outline: 0px;
+    border: 2px solid var(--silver-lake-blue);
+
+}
