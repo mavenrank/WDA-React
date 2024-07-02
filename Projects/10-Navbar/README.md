@@ -2,7 +2,7 @@
 
 Responsive Navbar design by using *useState*, *useEffect* and *useRef*.
 
-[Click here for Implementation](https://wda-react-projects-10-navbar.netlify.app/)
+[Click here for Implementation](https://wda-react-projects-10-navbar.pages.dev/)
 
 ##### Mobile
 ![Navbar - Mobile](thumbnail-mob.png)

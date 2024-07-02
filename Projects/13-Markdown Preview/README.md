@@ -5,4 +5,4 @@ It uses *React-Markdown*.
 
 ![Markdown Preview](./thumbnail.png)
 
-[Click here for Implementation](https://wda-react-projects-13-markdown.netlify.app/)
+[Click here for Implementation](https://wda-react-projects-13-markdown-preview.pages.dev/)

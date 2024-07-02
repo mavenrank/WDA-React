@@ -6,4 +6,4 @@ It demonstrates how to manipulate *Text*, *Array Values*, *Object Attributes* an
 
 ![Image of Website](thumbnail.png "React useState Hook")
 
-[Click Here for Implementation](https://wda-react-usestate-hook-mavenranks-projects.vercel.app/)
+[Click Here for Implementation](https://wda-react-usestate-hook.vercel.app/)

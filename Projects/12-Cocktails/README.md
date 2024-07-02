@@ -5,4 +5,4 @@ It uses *useState*, *useEffect*, *useRef*, *API* from *CockTailDB*, *React Route
 
 ![CockTailDB Clone](thumbnail.png)
 
-[Click here for Implementation](https://wda-react-projects-12-cocktails.netlify.app/)
+[Click here for Implementation](https://wda-react-projects-12-cocktail-db.pages.dev/)

@@ -6,7 +6,7 @@
 
 #### Topics
 
-##### [🔗 useState Hook](https://wda-react-usestate-hook-mavenranks-projects.vercel.app/)
+##### [🔗 useState Hook](https://wda-react-usestate-hook.vercel.app/)
 <!--from Vercel.App-->
 
 ##### [🔗 useEffect Hook](https://wda-react-useeffect-hook-mavenranks-projects.vercel.app/)
@@ -18,8 +18,8 @@
 ##### [🔗 Forms and useRef](https://wda-react-forms-useref-hook.pages.dev/)
 <!--from CloudFlare Pages-->
 
-##### [🔗 useReducer Hook](https://wda-react-usereducer-hook.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 useReducer Hook](https://wda-react-usereducer-hook.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 ##### [🔗 Memo and useMemo, useCallback Hooks](https://wda-react-memo-usememo-usecallback.pages.dev/)
 
@@ -31,11 +31,11 @@
 ##### [🔗 2 - Tabs Experience](https://wda-react-task-2-tabs.pages.dev/)
 <!--from CloudFlare Pages-->
 
-##### [🔗 3 - Grocery Bud (Project-9)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 3 - Grocery Bud (Project-9)](https://wda-react-projects-9-grocerybudsimple.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 4 - Sidebar and Modal (Project-11)](https://wda-react-projects-11-sidebar-modal.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 4 - Sidebar and Modal (Project-11)](https://wda-react-projects-11-sidebar-modal.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 #### Projects
 
@@ -60,26 +60,26 @@
 ##### [🔗 8 - Color Generator](https://wda-react-projects-8-color-generator.pages.dev/)
 <!-- from CloudFlare Pages -->
 
-##### [🔗 9 - Grocery Bud (Task - 3)](https://wda-react-projects-9-grocerybudsimple.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 9 - Grocery Bud (Task - 3)](https://wda-react-projects-9-grocerybudsimple.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 10 - Navbar](https://wda-react-projects-10-navbar.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 11 - Sidebar and Modal (Task - 4)](https://wda-react-projects-11-sidebar-modal.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 11 - Sidebar and Modal (Task - 4)](https://wda-react-projects-11-sidebar-modal.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 12 - Cocktail DB Implementation](https://wda-react-projects-12-cocktails.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 12 - Cocktail DB Implementation](https://wda-react-projects-12-cocktail-db.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 13 - Markdown Preview](https://wda-react-projects-13-markdown.netlify.app/)
-<!-- form Netlify.App -->
+##### [🔗 13 - Markdown Preview](https://wda-react-projects-13-markdown-preview.pages.dev/)
+<!-- form CloudFlare Pages -->
 
-##### [🔗 14 - Pagination](https://wda-react-projects-14-pagination.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 14 - Pagination](https://wda-react-projects-14-pagination.pages.dev/)
+<!-- from CloudFlare Pages -->
 
-##### [🔗 15 - Movie DB](https://wda-react-projects-15-movie-db.netlify.app/)
-<!-- from Netlify.App -->
+##### [🔗 15 - Movie DB](https://wda-react-projects-15-movie-db.pages.dev/)
+<!-- from CloudFlare Pages -->
 
 #### Snapshots of Various Websites
 
