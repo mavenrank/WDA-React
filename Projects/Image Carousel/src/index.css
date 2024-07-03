@@ -1,0 +1,115 @@
+:root {
+    /* CSS HEX */
+    --seasalt: #f8f9faff;
+    --antiflash-white: #e9ecefff;
+    --platinum: #dee2e6ff;
+    --french-gray: #ced4daff;
+    --french-gray-2: #adb5bdff;
+    --slate-gray: #6c757dff;
+    --outer-space: #495057ff;
+    --onyx: #343a40ff;
+    --eerie-black: #212529ff;
+}
+
+@font-face {
+    font-family: "InterVariable";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("../assets/Fonts/InterVariable.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "InterVariable";
+    color: var(--french-gray);
+    background-color: var(--eerie-black);
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 450px;
+}
+
+.video-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 80%;
+}
+
+.carousel-section {
+    background-color: aliceblue;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: var(--eerie-black);
+}
+
+.prev-image {
+    width: 20vw;
+    height: 60vh;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-image {
+    width: 20vw;
+    position: absolute;
+    height: 60vh;
+    top: 0%;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-section {
+    width: 100vw;
+    position: absolute;
+}
+
+.image-inlet {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    top: 0%;
+    left: 20%;
+}
+
+.image {
+    background-color: violet;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    top: 2.5%;
+    left: 2.55%;
+    border: 1px solid var(--french-gray-2);
+    border-radius: 8px;
+}
+
+.chevron{
+    height: 60px;
+    width: 60px;
+}
