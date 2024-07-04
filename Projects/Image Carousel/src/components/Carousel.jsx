@@ -107,13 +107,10 @@ const Carousel = ({ carousel }) => {
                                     {console.log(
                                         `Songwriters: ${videoDetails.songwriters}\nProducers: ${videoDetails.producers}`
                                     )}
-                                    <video
-                                        src={item}
-                                        controls
+                                    <iframe
                                         className="video"
-                                        poster={videoPoster[count]}
-                                        preload="auto"
-                                    ></video>
+                                        src={item}
+                                    ></iframe>
                                 </React.Fragment>
                             );
                         })

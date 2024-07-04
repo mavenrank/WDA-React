@@ -29,7 +29,7 @@ const carousel_data = [
             producers: ["Carter Lang", "Louis Bell"]
         },
         videoSrc: [
-            "../../assets/Spiderman/Post Malone, Swae Lee - Sunflower.webm",
+            "https://youtu.be/ApXoWvfEYVU?si=CzYdZV8VOqB0hucz",
         ],
         videoPoster: ["../../assets/Spiderman/Sunflower Poster.png"],
     },
