@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import carousel_data from "../caruousel_data";
 
-const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
+const Navbar = ({handleNavItem}) => {
 
-export default Navbar
+
+    return (
+        <div className="navbar">
+            <div className="brand">
+                Carousels
+            </div>
+            {carousel_data.map((item) => {
+                return <div key={item.title} className="nav-item" onClick={handleNavItem}>{item.title}</div>;
+            })}
+        </div>
+    );
+};
+
+export default Navbar;

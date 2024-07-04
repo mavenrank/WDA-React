@@ -6,13 +6,36 @@ const carousel_data = [
         images: [
             "../../assets/Spiderman/traffic.jpg",
             "../../assets/Spiderman/upside-down.jpg",
+            "../../assets/Spiderman/characters.jpg",
+            "../../assets/Spiderman/city-overview.jpg",
+            "../../assets/Spiderman/hanging-from-tower.jpg",
+            "../../assets/Spiderman/city.jpg",
+            "../../assets/Spiderman/jumping-onto-road.jpg",
+            "../../assets/Spiderman/falling-from-trees.jpg",
         ],
-        videoSrc:
+        videoDetails: {
+            song: "Sunflower",
+            singers: "Post Malone, Swae Lee",
+            released: "October 18, 2018",
+            genre: "Hip-Hop",
+            songwriters: [
+                "Austin Post",
+                "Khalif Brown",
+                "Carter Lang",
+                "Carl Rosen",
+                "Billy Walsh",
+                "Louis Bell",
+            ],
+            producers: ["Carter Lang", "Louis Bell"]
+        },
+        videoSrc: [
             "../../assets/Spiderman/Post Malone, Swae Lee - Sunflower.webm",
+        ],
+        videoPoster: ["../../assets/Spiderman/Sunflower Poster.png"],
     },
     {
         id: "iPhone",
-        title: "Apple iPhone",
+        title: "iPhone",
         logo: "../../assets/iPhone/logo.png",
         images: [
             "../../assets/iPhone/iPhone10sMax.jpg",
@@ -21,7 +44,7 @@ const carousel_data = [
             "../../assets/iPhone/iPhone13Pro_FeatureGrid.png",
             "../../assets/iPhone/iPhone14Pro_FeatureGrid.png",
             "../../assets/iPhone/iPhone15Pro_FeatureGrid.png",
-        ]
+        ],
     },
 ];
 

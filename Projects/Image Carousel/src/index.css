@@ -26,43 +26,70 @@
     margin: 0;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--outer-space);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--eerie-black);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--outer-space);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+}
+
 body {
     font-family: "InterVariable";
     color: var(--french-gray);
-    background-color: var(--eerie-black);
+    background-color: black;
 }
 
 .logo-div {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .logo {
     width: 450px;
 }
 
-.video-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.title-and-image-carousel {
+    position: relative;
+    height: 80vh;
 }
 
-.video {
-    width: 80%;
+.carousel-section-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .carousel-section {
-    background-color: aliceblue;
+    background-color: black;
     width: 100%;
     height: 60vh;
     position: relative;
-    background-color: var(--eerie-black);
 }
 
 .prev-image {
-    width: 20vw;
-    height: 60vh;
+    background-color: inherit;
+    width: 10vw;
+    height: 70vh;
     top: 0%;
     left: 0%;
     position: absolute;
@@ -70,20 +97,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .next-image {
-    width: 20vw;
+    width: 10vw;
     position: absolute;
-    height: 60vh;
+    height: 70vh;
     top: 0%;
-    left: 80%;
+    left: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
+.prev-image:hover,
+.next-image:hover {
+    background-color: rgb(25, 25, 25);
+    transition: all 0.2s ease-in-out;
+}
 
 .image-section {
     width: 100vw;
@@ -92,24 +128,141 @@ body {
 
 .image-inlet {
     position: absolute;
-    width: 60vw;
-    height: 60vh;
+    width: 80vw;
+    height: 70vh;
     top: 0%;
-    left: 20%;
+    left: 10%;
 }
 
 .image {
-    background-color: violet;
     height: 95%;
     width: 95%;
     position: absolute;
+    object-fit: cover;
     top: 2.5%;
-    left: 2.55%;
+    left: 2.5%;
     border: 1px solid var(--french-gray-2);
     border-radius: 8px;
+    /* * disable select to avoid blue selection thingy */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
-.chevron{
+.chevron {
     height: 60px;
     width: 60px;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.nav-item {
+    font-family: "InterVariable";
+    font-weight: 900;
+    display: block;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 20px;
+}
+
+.nav-item:hover {
+    background-color: var(--eerie-black);
+    transition: all 0.2s ease-in-out;
+}
+
+.brand {
+    font-size: 1.5em;
+    font-family: "InterVariable";
+    position: absolute;
+    left: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn {
+    height: max-content;
+    width: max-content;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--onyx);
+    transition: all 0.2s ease-in-out;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-div {
+    height: 40px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-pause {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-and-video h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 80%;
+    height: 100%;
+}
+
+.video:active,
+.video:focus {
+    outline: 0;
+    border: 0;
+}
+
+.videodetails-and-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section p {
+    font-size: 16px;
+    font-weight: 200;
 }
