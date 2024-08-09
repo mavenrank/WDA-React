@@ -1,0 +1,363 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* * Navbar Styles */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #347576;
+}
+
+.amazon-btn {
+    background-color: #347576;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.amazon-btn:hover {
+    background-color: #265455;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo-delivery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.delivery {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.geo-logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.delivering-to-city {
+    margin-left: 20px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.random-city {
+    font-size: 24px;
+    width: 200px;
+}
+
+.search-bar input {
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-bar input:focus,
+.search-bar input:active {
+    transition: all 0.2s ease-in-out;
+    background-color: #57baba;
+    color: black;
+    outline: 0px;
+}
+
+.navlinks-section {
+    width: 250px;
+}
+
+.navlinks-section a {
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out;
+    font-size: 24px;
+}
+
+.navlinks-section a:hover {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    font-size: 24px;
+    background-color: #347576;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #265455;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* * Navbar Styles End */
+
+/* * TitleNote Styles*/
+
+.title-of-page {
+    display: flex;
+    flex-direction: row;
+    background-color: #347576;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.title {
+    font-size: 24px;
+    color: black;
+    padding: 30px 15px 30px 15px;
+    font-family: "Montserrat";
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: right;
+}
+
+.github-icon {
+    background-color: #347576;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+.github-icon:hover {
+    color: #265455;
+    transition: all 0.2s ease-in-out;
+}
+
+.credits span {
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.note {
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: #57baba;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* * TitleNote Styles End */
+
+/* * Div Styles Start*/
+.main-div {
+    display: flex;
+}
+
+.leftsection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex: 30%;
+    width: 300px;
+}
+
+.rightsection {
+    display: flex;
+    flex: 70%;
+    background-color: aquamarine;
+}
+
+/* * Div Styles End*/
+
+/* * BookList Styling Begins */
+.book-link {
+    text-decoration: none;
+    color: black;
+}
+
+.booklist {
+    position: absolute;
+    left: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-book {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    cursor: pointer;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.single-book:hover {
+    background-color: #56baba;
+    transition: all 0.2s ease-in-out;
+}
+
+.ranking {
+    position: absolute;
+    color: black;
+    top: 0px;
+    left: 0px;
+    background-color: orange;
+    padding: 0px 25px 0px 25px;
+    width: max-content;
+}
+
+img {
+    position: relative;
+    left: 54px;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-title {
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+.price-tag {
+    font-weight: bold;
+    text-align: end;
+    color: orange;
+}
+
+/* * Booklist Styling Ends */
+
+/* * SinglePage Styling Starts*/
+
+.single-product {
+    padding: 30px;
+}
+
+.single-book-image-section {
+    float: left;
+    margin-right: 100px;
+}
+
+.single-book-text-section h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.single-book-text-section h2,
+.single-book-text-section p {
+    margin-bottom: 10px;
+}
+
+.increment-decrement {
+    font-size: 24px;
+    background-color: #347576;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.increment-decrement:hover {
+    background-color: #265455;
+    transition: all 0.2s ease-in-out;
+}
+
+.add-to-cart {
+    font-size: 24px;
+    background-color: #347576;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #265455;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-button{
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: #347576;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.back-button:hover {
+    background-color: #265455;
+    color: rgb(207, 188, 188);
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* * SinglePage Styling Ends*/
+
+
+/* * About Section */
+.about-centre{
+    margin: 40px;
+}
+
